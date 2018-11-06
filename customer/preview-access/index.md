@@ -15,7 +15,7 @@ Example:
 ```
 127.0.0.1 localhost
 123.45.67.89 www.example.com
-#98.76.54.32 www.inactive-example.com
+# 98.76.54.32 www.inactive-example.com
 ```
 
 
