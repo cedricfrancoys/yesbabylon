@@ -18,15 +18,18 @@ Example:
 #98.76.54.32 www.inactive-example.com
 ```
 
-What you need to do, in order to access your preview instance, is to append your new mappings underneath the default ones. You can navigate the file using the arrow keys.   
+
+
+**What you need to do, in order to access your preview instance**, is to append your new mappings underneath the default ones:
 
 ```
 123.45.67.89 domain.com 
 ```
 
-- Replace `123.45.67.89` with the server IP provided to you. 
-- Replace domain.com with your actual domain name. 
-- Additional domains, subdomains or addon domains (such as www.domain.com) can be added at the end of the line, separated by spaces.  
+Where you have to replace:
+
+- `123.45.67.89` with the server IP provided to you;
+- `domain.com` with your actual domain name. 
 
 
 
