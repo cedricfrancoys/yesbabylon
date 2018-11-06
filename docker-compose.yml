@@ -1,0 +1,77 @@
+version: '3.3'
+
+# This file expects some .env file (within same dir) defining the following vars:
+#   MYSQL_ROOT_PASSWORD
+#   MYSQL_DATABASE
+#   MYSQL_USER
+#   MYSQL_PASSWORD
+#   DOMAIN_NAME
+#   DOMAIN_CONTACT
+
+# We define all services and dependencies under the 'services' section, so that all related containers run within the same stack
+services:
+   db:
+     container_name: sql.${DOMAIN_NAME}
+     # always detail which exact version has to be used for this App
+     image: mariadb:10.2
+     volumes:
+       - db_data:/var/lib/mysql
+     restart: always
+     networks:
+       - proxynet
+     environment:
+       - MYSQL_ROOT_PASSWORD=${MYSQL_ROOT_PASSWORD}
+       - MYSQL_DATABASE=${MYSQL_DATABASE}
+       - MYSQL_USER=${MYSQL_USER}
+       - MYSQL_PASSWORD=${MYSQL_PASSWORD}
+   app:
+     container_name: ${DOMAIN_NAME}
+     depends_on:
+       - db
+     image: docked-wp
+     volumes:
+       - /home/${DOMAIN_NAME}/www:/var/www/html
+     restart: always
+     networks:
+       - proxynet
+     expose:
+       - 80
+     environment:
+       - WORDPRESS_DB_NAME=${MYSQL_DATABASE}
+       - WORDPRESS_DB_HOST=db:3306
+       - WORDPRESS_DB_USER=${MYSQL_USER}
+       - WORDPRESS_DB_PASSWORD=${MYSQL_PASSWORD}
+       - HTTPS_METHOD=noredirect
+       - VIRTUAL_PORT=80
+       - VIRTUAL_HOST=${DOMAIN_NAME}
+       - LETSENCRYPT_HOST=${DOMAIN_NAME}
+       - LETSENCRYPT_EMAIL=${DOMAIN_CONTACT}
+   docs:
+     container_name: doc.${DOMAIN_NAME}
+     image: docked-mkdocs
+     restart: always
+     networks:
+       - proxynet
+     expose:
+       - 8000
+     ports:
+       - "8000:8000"
+     volumes:
+       - /home/${DOMAIN_NAME}/doc:/workdir
+     environment:
+       - VIRTUAL_HOST=doc.${DOMAIN_NAME}
+       - HTTPS_METHOD=noredirect       
+       - VIRTUAL_PORT=80
+
+# To expose the services, we use the 'proxynet' which contains a nginx reverse proxy.
+# Only services having a VIRTUAL_HOST environment variable set will be accessible.
+networks:
+  proxynet:
+    external: true
+
+# We use a named volume for DB (e.g. domainname_db_data) so that, after restarts, this stack will always use the same volume (stored under `/var/lib/docker/volumes/{domainname}_db_data/_data`)
+# This also implies that, in case of config change (e.g. DB name or password), it will be necessary to:
+# * manually update config values OR to remove/recreate the volume.
+# * update config in the www folder
+volumes:
+  db_data:
