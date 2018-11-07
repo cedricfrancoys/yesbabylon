@@ -18,7 +18,7 @@ Edit adduser.conf config file so we can use domains as user names:
 `sudo vi /etc/adduser.conf`  
 
 Locate the line with:  
-`NAME_REGEX="^[a-z][-a-z0-9]*$"`  
+`NAME_REGEX=...`  
 
 and replace it with:  
 `NAME_REGEX="^[a-z][-.a-z0-9]*$"`
