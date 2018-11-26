@@ -89,7 +89,7 @@ lrwxrwxrwx (777) root:root    mkdocs.yml -> ./mkdocs/mkdocs.yml
 ln -s ./mkdocs/docs docs
 ```
 ```
-ln -s ./mkdocs/mkdocs.yml mkdocks.yml
+ln -s ./mkdocs/mkdocs.yml mkdocs.yml
 ```
 
 ### mkdocs.yml

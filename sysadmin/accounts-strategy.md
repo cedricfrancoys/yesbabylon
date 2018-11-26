@@ -63,7 +63,10 @@ Notes about SSL: in order to be operational, a website running under SSL need to
 
 ## Backups
 ### Backup data from a mysql container
+```
 docker exec CONTAINER /usr/bin/mysqldump -u root --password=root DATABASE > backup.sql
-
+```
 ### Restore data to a mysql container
+```
 cat backup.sql | docker exec -i CONTAINER /usr/bin/mysql -u root --password=root DATABASE
+```

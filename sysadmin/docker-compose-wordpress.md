@@ -18,7 +18,7 @@ docker build -t docked-wp --build-arg apache_gid=`cut -d: -f3 < <(getent group w
 
 ### Dockerfile
 ```
-FROM wordpress:4.9.1
+FROM wordpress:4.9.8
 LABEL   Description="Latest version of Wordpress with Apache UID and GUID injection" \
         Maintainer="Cedric Francoys <cedricfrancoys@gmail.com>" \
         License="Apache License 2.0" \
