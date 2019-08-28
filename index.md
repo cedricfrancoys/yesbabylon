@@ -1,7 +1,7 @@
-# YesBabylon Servers
+# YesBabylon Strategy
 
-This documentation presents YesBabylon Server principles and its implementation.
+This documentation presents the technology and principles used at YesBabylon for hosting websites & services, and the way we implemented it.
 
 * The virtualisation strategy and its benefits
-* The account strategy for managing apps on the server
+* The account strategy for managing apps on Cloud servers
 * How to install and administrate such server.
