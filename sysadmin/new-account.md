@@ -43,6 +43,10 @@ HTTPS_METHOD=noredirect
 VIRTUAL_PORT=80
 ```
 
+
+
+### 503 errors
+
 Note: in order to be operational, a website running under SSL need to be attached to a valid DNS entry (accessible through internet, to any client). This is because the nginx auto-config (wrongly ?) sets a `return 500` when using the `/etc/nginx/certs/default.crt`  certificate.
 
 As an alternate method, inside the nginx-proxy instance, it is possible to update the `/app/nginx.tmpl`: Under the `{{ if (and (not $is_https) (exists "/etc/nginx/certs/default.crt") (exists "/etc/nginx/certs/default.key")) }}` section, do: 
@@ -55,6 +59,31 @@ As an alternate method, inside the nginx-proxy instance, it is possible to updat
 ```
 
 (i.e.: prevent returning a HTTP 500 error, and relay the request the same way as in HTTP.)
+
+The template seems buggy : if the letsencrypt-companion cannot generate the .crt and .key files, it tries to load them anyway, thus generating an error and preventing the nginx service to reload.
+
+
+
+Another cause of 503 error may arise from an invalid config file (`/etc/nginx/conf.d/default.conf`)
+
+In order to diagnose, go to the container console and run  `nginx -s reload`
+
+In cas eof error : 
+
+```
+nginx.1 | nginx: [emerg] open() "/etc/nginx/vhost.d/default" failed (2: No such file or directory) in /etc/nginx/conf.d/default.conf:95
+```
+manually create a default file to the nginx-proxy container
+```
+docker cp default nginx-proxy:/etc/nginx/vhost.d/default
+```
+(do the same for any missing .crt or .key file )
+```
+docker cp default.crt nginx-proxy:/etc/nginx/certs.d/checyourfund.eu.crt
+```
+
+
+
 
 ## Create related GIT repositories
 Mandatory repositories are:

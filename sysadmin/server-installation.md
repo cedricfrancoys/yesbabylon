@@ -5,7 +5,18 @@
 Ubuntu 18.04 LTS (GNU/Linux 4.15.0-22-generic x86_64)  
 (note: PHP 7.2 is included by default in Ubuntu’s repositories since version 18.04.)
 
+
+
+Les procédures ont été fusionnées dans un script : 
+
+
+
+git clone https://github.com/yesbabylon/b2.git
+
+
+
 ### Create Admin account
+
 ```
 adduser nabu
 usermod -aG sudo nabu

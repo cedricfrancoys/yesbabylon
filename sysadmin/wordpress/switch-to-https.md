@@ -17,7 +17,7 @@ As [WP official codex](http://codex.wordpress.org/Administration_Over_SSL#Using_
 It is hence necessary to adapt `wp-config.php`:
 
 ```
-if (isset($_SERVER['HTTP_X_FORWARDED_PROTO']) && strpos($_SERVER['HTTP_X_FORWARDED_PROTO'], 'https') !== false) {
+if (isset($_SERVER['HTTP_X_FORWARDED_PROTO']) && stripos($_SERVER['HTTP_X_FORWARDED_PROTO'], 'https') !== false) {
     $_SERVER['HTTPS']='on';    
 }
 
@@ -40,7 +40,7 @@ define('FORCE_SSL_ADMIN', true);
 define('WP_HOME','https://example.com');
 define('WP_SITEURL','https://example.com');
 ```
-9. Adapt any JS URL rewriting
+9. Adapt any JS URL rewriting(run at page load)
 10. Check .htaccess for URL rewriting 
 
 
