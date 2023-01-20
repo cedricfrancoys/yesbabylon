@@ -1,0 +1,62 @@
+1) vérification des SBL
+2) vérification auth (SPF, dkim) et reporting (politique dmarc)
+3) vérification conformité dispositions légales
+4) vérification des échanges SMTP (codes de retour lors des échanges)
+
+
+si l'email est envoyé, mais non reçu
+
+
+1. MUA: couche applicative : connexion avec le service SMTP
+	vérification des échanges (confirmation de la connexion, confirmation de l'envoi)
+2. MTA: mauvais gestion des codes de retour SMTP lors de la connexion au MTA. 
+	Diagnostique: voir les journaux du service SMTP (demande d'envoi et confirmation d'envoi) ? non gestion d'un code d'erreur
+3. MDA: bug au niveau du MTA (fournisseur de boite email) 
+	Diagnotique: dépend du type de service. Très peu vraissemblable pour les services de type Google, Microsoft
+4. MUA: présence de règles de suppression automatique, organisation spécifique de l'affichage (notifications, social, ads, spam, ...)
+
+
+Infos sur : https://doc.digital-facile.yb.run/CheckUp/#mx
+Vérifications DNS : https://mxtoolbox.com/
+Vérification de l'indice d'indésirabilité : https://www.mail-tester.com/
+
+
+
+
+* Subscribers Don’t Remember You
+* Have Low Mailbox Usage : lots of inactive accounts or "spam traps"
+* Low Engagement Rates : few users open the message
+* Subject Line is Misleading
+* “From” Information is Inaccurate
+
+* Message do not include a physical Address
+* Message do not include a working “Unsubscribe” Link	
+* Message does not Follow Best Practices
+    * Use a maximum width of 600-800 pixels. This will make them look good in most email clients.
+    * Keep your HTML code as simple and clean as possible. If you are using a template from a reputable email service provider, you should be OK.
+    * Keep your image-to-text ratio low. Images are OK to include in your email marketing campaigns, but never send image-only emails with no text.
+    * Optimize your images for email by compressing them first. Don’t use super high-resolution images or other media with a large file size.
+    * Don’t use obscure fonts. Stick with fonts that work across platforms, like Arial, Verdana, Georgia and Times New Roman.
+    * Optimize for mobile.
+
+* Message does not have a "List-Unsubscribe" header
+
+
+Mentions légales :
+
+* Personne (morale ou physique) responsable de l'édition
+* Raison pour laquelle l'utilisateur reçoit le message 
+* Adresse postale complète 
+* Lien de mise à jour des préférences
+* Lien de désinscription
+---
+Legal Notice :
+
+* Name of the person (moral or physical) responsible of the sending
+* Reason why the user receives the message
+* Full physical mailing address
+* "Update preferences" link
+* "Unsubscribe" link
+
+Check the email against spam filters triggers: http://isnotspam.com/, https://www.mail-tester.com/
+

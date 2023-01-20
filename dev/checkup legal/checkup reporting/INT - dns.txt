@@ -1,0 +1,21 @@
+fonctions PHP
+
+dns_get_mx
+
+dns_get_record
+
+
+check reverse PTR
+
+check SPF record
+
+check DMARK
+
+check 
+
+
+
+gethostbyname ( string $hostname ) 
+
+
+gethostbyaddr ( string $ip_address ) :

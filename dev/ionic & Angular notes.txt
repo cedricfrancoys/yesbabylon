@@ -1,0 +1,25 @@
+ionic & Angular notes
+
+
+ng --version
+ionic info
+ionic -v 
+
+
+Wharn : ionic 6 + Angular 10
+
+
+emulation via android studio
+
+
+
+
+ionic capacitor build android --prod
+
+
+Signature .apk file : 
+
+jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore my-release-key.keystore C:\DEV\wharn-mobile\android\app\release\app-release.apk alias_name
+
+
+C:\Users\Ced\AppData\Local\Android\Sdk\build-tools\30.0.2\zipalign.exe -v 4 C:\DEV\wharn-mobile\android\app\release\app-release.apk C:\DEV\wharn-mobile\wharn.apk

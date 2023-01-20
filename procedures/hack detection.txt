@@ -1,0 +1,19 @@
+* see blocked IP
+https://www.blocklist.de/en/view.html?ip=51.38.51.128
+
+* see outgoing connexions
+netstat -nptw
+
+* find the process related to a connexion
+ps -eaf | grep PID
+
+nabu     21625 21620 58 13:26 ?        00:00:49 /tmp/.X25-unix/.rsync/c/lib/64/tsm --library-path /tmp/.X25-unix/.rsync/c/lib/64/ /usr/sbin/httpd rsync/c/tsm64 -t 515 -f 1 -s 12 -S 10 -p 0 -d 1 p ip
+
+* Kill all processes related to the user
+kill -9 PID
+
+* remove user
+sudo deluser --remove-home nabu
+
+* reset root password
+sudo passwd root

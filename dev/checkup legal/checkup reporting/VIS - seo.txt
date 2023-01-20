@@ -1,0 +1,47 @@
+
+## Google Search results
+
+key=AIzaSyCDSjNGcEMMhUmfoVYduwhJaUoWE4chECA
+cx=003384885074762145397:zcwurjmt7se
+
+GET https://www.googleapis.com/customsearch/v1?key=AIzaSyCDSjNGcEMMhUmfoVYduwhJaUoWE4chECA&cx=003384885074762145397:zcwurjmt7se&q=lsite:cedricfrancoys.be
+
+
+
+https://stackoverflow.com/questions/22902415/daily-limit-exceeded-when-using-google-custom-search-api
+(100 queries / 1000 results per day)	
+
+exemple:
+https://www.googleapis.com/customsearch/v1?key=AIzaSyCDSjNGcEMMhUmfoVYduwhJaUoWE4chECA&cx=003384885074762145397:zcwurjmt7se&q=site:betterfinance.eu
+
+
+json.searchInformation.totalResults
+
+json.items[x].link
+
+## points de controle SEO
+vérifier l'intégration de balises META, og:, schema.org, heros, 
+
+"og:title", "og:description"
+<title>
+name="description"
+itemprop="description"
+itemtype="http://schema.org/WebPage"
+
+
+"shortcut icon" 
+"apple-touch-icon" 
+
+sitemap, sitemap.txt, sitemap.xml
+robots.txt
+
+
+## website crawler
+
+keep a list of URL
+
+get scheme & domain
+
+* fetch content from first URL not yet fetched in the list
+* parse content for URL, add new URL to the list (normalize scheme)
+* mark the current URL as fetched

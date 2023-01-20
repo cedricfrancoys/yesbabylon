@@ -1,0 +1,11 @@
+reset magento 1.9
+
+SQL modifier dans table core_config_data
+web/unsecure_base_url
+web/secure_base_url
+
+vider var/cache
+vider var/session
+
+
+browser : empty cookies

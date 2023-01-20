@@ -1,0 +1,67 @@
+1) définir le site tel qu'il doit fonctionner + 'publish' + 'get code'
+
+2) utiliser osano pour identifier les scripts et les cookies : sélection pour 'managed'
+
+3) ajouter le script osano dans le header
+
+4) publier les modifications
+
+5) osano utilise le localstore : de nouveau cookies vont être détectés
+
+6) ajouter les cookies osano à : sélection pour 'managed'
+
+7) publier les modifications
+
+
+@media only screen and (min-width: 500px) {
+  .osano-cm-dialog {
+    min-width: 450px;
+  }
+}
+
+.osano-cm-dialog {
+  border: solid 3px black;
+  background-color: white;
+}
+.osano-cm-button {
+  background-color: #0174C7;
+}
+
+
+.osano-cm-button.osano-cm-accept-all  {
+  background-color: #1f781b;
+}
+.osano-cm-button.osano-cm-save {
+  opacity: 0.5;
+}
+.osano-cm-close {
+  overflow: visible;
+}
+.osano-cm-widget{
+  display:none;
+}
+.a-osano{
+  cursor: pointer;
+  text-decoration: underline;
+}
+.osano-cm-close {
+  overflow: visible;
+}
+.osano-cm-close:focus {
+  background-color: transparent;
+  border-color: transparent;
+  stroke: black;
+}
+
+<script src="https://cmp.osano.com/16CVyfSmBFq2nf6P/xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxx/osano.js"></script>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+	var a_osano = document.getElementsByClassName('a-osano');
+	if(a_osano.length) {
+	    document.getElementsByClassName('a-osano')[0].addEventListener("click", function(event) {
+            document.getElementsByClassName('osano-cm-widget')[0].click();
+	    });
+	}
+});
+</script>

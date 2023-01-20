@@ -1,0 +1,55 @@
+* ressource gratuite: livre blanc (exemple: "comment se mettre en conformité pour les nuls")
+* documentation (aide / support, comment faire soi-même)
+* test avec rapport détaillé
+
+
+catégories:
+
+* mentions légales obligatoires
+* conditions générales de vente
+* sécurisation 
+* gestion des données à caractère personnel
+* cookies & localstore
+
+
+## mentions légales obligatoires
+
+* personne physique: nom et prénom 
+* personnes morales: dénomination sociale
+* adresse du siège social
+* coordonnées de contact : adresse e-mail, numéro de téléphone
+
+* le capital social
+* numéro d’immatriculation au registre du commerce ou au registre des métiers,
+    * si l’activité est soumise à une autorisation, le nom et l’adresse de l’autorité qui lui a délivré cette autorisation,
+    * si la profession est réglementée, la référence aux règles professionnelles applicables, le titre professionnel, l’État dans lequel il a été octroyé, ainsi que le nom de l’organisme professionnel auprès duquel l’entreprise est inscrite.
+* numéro d’identification à la TVA,
+
+
+## conditions générales de vente
+
+* l’absence de droit de rétractation ou le droit de rétractation (conditions, délai et mise en œuvre),
+* le cas échéant, le fait que le consommateur supporte les frais de renvoi en cas de rétractation,
+* l’information sur l’obligation du consommateur de payer des frais lorsque celui-ci exerce son droit de rétractation d’un contrat de prestation de services dont il a demandé expressément l’exécution avant la fin du délai de rétractation,
+* l’adresse, le numéro de téléphone, le numéro de fax et l’adresse mail de l’entreprise,
+* le coût éventuel de la communication à distance pour conclure le contrat,
+* le cas échéant, la durée minimale des obligations contractuelles du vendeur,
+* le cas échéant, les cautions et autres garanties à payer,
+* le cas échéant, la possibilité de recourir à une procédure extrajudiciaire pour régler un litige avec l’entreprise,
+* et, le cas échéant, l’existence de codes de conduite applicables.
+
+
+## sécurisation (des paiements)
+? certificat SSL
+? liste des bibliothèques de paiement sûres / peu sûres
+
+
+## gestion des données à caractère personnel
+contrat de sous-traitance
+déclarations APD
+	délégué protection des données
+
+conformité formulaires (contact)
+
+
+## cookies & localstore

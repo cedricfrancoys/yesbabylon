@@ -1,0 +1,10 @@
+identifier les scripts JS utilisés
+
+https://snyk.io/vuln/npm:jquery?lh=1.11.1&utm_source=lighthouse&utm_medium=ref&utm_campaign=audit
+https://snyk.io/vuln/npm:bootstrap?lh=2.1.0
+
+
+identifier le CMS utilisé
+
+Wordpress, Drupal,Joomla, Typo3
+woocommerce, magento, prestashop, shopify, Drupal Commerce

@@ -1,0 +1,13 @@
+# In nginx logs, the origin address is $remote_user
+
+# See origin of an IP address
+https://www.iplocation.net/
+
+# Ban (drop all packets from) an IP address
+iptables -A INPUT -s {IP address} -j DROP
+
+# See all DROP rules
+iptables -L -n -v --line-numbers | grep DROP
+
+# Remove a rule
+iptables -D INPUT {num}

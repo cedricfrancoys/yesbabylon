@@ -1,0 +1,1 @@
+https://sevenin.odoo.com/web?#action=bank_statement_reconciliation_view&active_id=7&cids=1&menu_id=165

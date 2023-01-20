@@ -1,0 +1,411 @@
+{
+ "kind": "customsearch#search",
+ "url": {
+  "type": "application/json",
+  "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&relatedSite={relatedSite?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+ },
+ "queries": {
+  "request": [
+   {
+    "title": "Google Custom Search - site:betterfinance.eu",
+    "totalResults": "1540",
+    "searchTerms": "site:betterfinance.eu",
+    "count": 10,
+    "startIndex": 1,
+    "inputEncoding": "utf8",
+    "outputEncoding": "utf8",
+    "safe": "off",
+    "cx": "003384885074762145397:zcwurjmt7se"
+   }
+  ],
+  "nextPage": [
+   {
+    "title": "Google Custom Search - site:betterfinance.eu",
+    "totalResults": "1540",
+    "searchTerms": "site:betterfinance.eu",
+    "count": 10,
+    "startIndex": 11,
+    "inputEncoding": "utf8",
+    "outputEncoding": "utf8",
+    "safe": "off",
+    "cx": "003384885074762145397:zcwurjmt7se"
+   }
+  ]
+ },
+ "context": {
+  "title": "Google Search API"
+ },
+ "searchInformation": {
+  "searchTime": 0.482925,
+  "formattedSearchTime": "0.48",
+  "totalResults": "1540",
+  "formattedTotalResults": "1,540"
+ },
+ "items": [
+  {
+   "kind": "customsearch#result",
+   "title": "BetterFinance – The European Federation of Investors and Financial ...",
+   "htmlTitle": "BetterFinance – The European Federation of Investors and Financial ...",
+   "link": "https://betterfinance.eu/",
+   "displayLink": "betterfinance.eu",
+   "snippet": "Euroshareholders. As part of BETTER FINANCE and through the EuroVote \nplatform, Euroshareholders represents the interest of individual shareholders and\n ...",
+   "htmlSnippet": "Euroshareholders. As part of BETTER FINANCE and through the EuroVote \u003cbr\u003e\nplatform, Euroshareholders represents the interest of individual shareholders and\u003cbr\u003e\n&nbsp;...",
+   "cacheId": "5gPRzSEkdyoJ",
+   "formattedUrl": "https://betterfinance.eu/",
+   "htmlFormattedUrl": "https://betterfinance.eu/",
+   "pagemap": {
+    "cse_thumbnail": [
+     {
+      "width": "224",
+      "height": "224",
+      "src": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSmq1urVrBvrHotdt_0_jTnDlnpnpiAUxLA0rLC98TpSusGvRe51fctMMDK"
+     }
+    ],
+    "metatags": [
+     {
+      "viewport": "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0",
+      "og:type": "website",
+      "og:title": "BetterFinance",
+      "og:description": "The European Federation of Investors and Financial Services Users",
+      "og:image": "https://betterfinance.eu/wp-content/themes/betterfinance/images/BF_slogan_thumb.jpg",
+      "og:url": "https://betterfinance.eu/",
+      "et-api-version": "v1",
+      "et-api-origin": "https://betterfinance.eu",
+      "tec-api-version": "v1",
+      "tec-api-origin": "https://betterfinance.eu"
+     }
+    ],
+    "cse_image": [
+     {
+      "src": "https://betterfinance.eu/wp-content/themes/betterfinance/images/BF_logo_big.png"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Communication – BetterFinance",
+   "htmlTitle": "Communication – BetterFinance",
+   "link": "https://betterfinance.eu/communication/",
+   "displayLink": "betterfinance.eu",
+   "snippet": "The uncertainty surrounding Brexit has had an unintended knock-on effect on the \nassessment of the transparency of financial products, causing ... Read More.",
+   "htmlSnippet": "The uncertainty surrounding Brexit has had an unintended knock-on effect on the \u003cbr\u003e\nassessment of the transparency of financial products, causing ... Read More.",
+   "cacheId": "vTAMyKaUbikJ",
+   "formattedUrl": "https://betterfinance.eu/communication/",
+   "htmlFormattedUrl": "https://betterfinance.eu/communication/",
+   "pagemap": {
+    "cse_thumbnail": [
+     {
+      "width": "180",
+      "height": "180",
+      "src": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRmgNN7FvoiC3s6b6Pgz7RfuUPWkaNnwLAWVqQOZZQBqsWljG-zkfQo4LPa"
+     }
+    ],
+    "metatags": [
+     {
+      "viewport": "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0",
+      "og:type": "website",
+      "og:title": "BetterFinance",
+      "og:description": "The European Federation of Investors and Financial Services Users",
+      "og:image": "https://betterfinance.eu/wp-content/themes/betterfinance/images/BF_slogan_thumb.jpg",
+      "og:url": "https://betterfinance.eu/",
+      "et-api-version": "v1",
+      "et-api-origin": "https://betterfinance.eu",
+      "tec-api-version": "v1",
+      "tec-api-origin": "https://betterfinance.eu"
+     }
+    ],
+    "cse_image": [
+     {
+      "src": "https://betterfinance.eu/wp-content/themes/betterfinance/images/press.png"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Articles – BetterFinance",
+   "htmlTitle": "Articles – BetterFinance",
+   "link": "https://betterfinance.eu/articles/",
+   "displayLink": "betterfinance.eu",
+   "snippet": "The uncertainty surrounding Brexit has had an unintended knock-on effect on the \nassessment of the transparency of financial products, causing ... Read More.",
+   "htmlSnippet": "The uncertainty surrounding Brexit has had an unintended knock-on effect on the \u003cbr\u003e\nassessment of the transparency of financial products, causing ... Read More.",
+   "cacheId": "sddRSzP2C3UJ",
+   "formattedUrl": "https://betterfinance.eu/articles/",
+   "htmlFormattedUrl": "https://betterfinance.eu/articles/",
+   "pagemap": {
+    "cse_thumbnail": [
+     {
+      "width": "180",
+      "height": "180",
+      "src": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRmgNN7FvoiC3s6b6Pgz7RfuUPWkaNnwLAWVqQOZZQBqsWljG-zkfQo4LPa"
+     }
+    ],
+    "metatags": [
+     {
+      "viewport": "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0",
+      "og:type": "website",
+      "og:title": "BetterFinance",
+      "og:description": "The European Federation of Investors and Financial Services Users",
+      "og:image": "https://betterfinance.eu/wp-content/themes/betterfinance/images/BF_slogan_thumb.jpg",
+      "og:url": "https://betterfinance.eu/",
+      "et-api-version": "v1",
+      "et-api-origin": "https://betterfinance.eu",
+      "tec-api-version": "v1",
+      "tec-api-origin": "https://betterfinance.eu"
+     }
+    ],
+    "cse_image": [
+     {
+      "src": "https://betterfinance.eu/wp-content/themes/betterfinance/images/press.png"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Projects & Campaigns – BetterFinance",
+   "htmlTitle": "Projects &amp; Campaigns – BetterFinance",
+   "link": "https://betterfinance.eu/campaigns/",
+   "displayLink": "betterfinance.eu",
+   "snippet": "Get Involved. +32 25 14 37 77. info@betterfinance.eu · image · Euroshareholders\n. As part of BETTER FINANCE and through the EuroVote platform, ...",
+   "htmlSnippet": "Get Involved. +32 25 14 37 77. info@betterfinance.eu &middot; image &middot; Euroshareholders\u003cbr\u003e\n. As part of BETTER FINANCE and through the EuroVote platform,&nbsp;...",
+   "cacheId": "Qtjf4CEZ_xoJ",
+   "formattedUrl": "https://betterfinance.eu/campaigns/",
+   "htmlFormattedUrl": "https://betterfinance.eu/campaigns/",
+   "pagemap": {
+    "cse_thumbnail": [
+     {
+      "width": "224",
+      "height": "224",
+      "src": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSmq1urVrBvrHotdt_0_jTnDlnpnpiAUxLA0rLC98TpSusGvRe51fctMMDK"
+     }
+    ],
+    "metatags": [
+     {
+      "viewport": "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0",
+      "og:type": "website",
+      "og:title": "BetterFinance",
+      "og:description": "The European Federation of Investors and Financial Services Users",
+      "og:image": "https://betterfinance.eu/wp-content/themes/betterfinance/images/BF_slogan_thumb.jpg",
+      "og:url": "https://betterfinance.eu/",
+      "et-api-version": "v1",
+      "et-api-origin": "https://betterfinance.eu",
+      "tec-api-version": "v1",
+      "tec-api-origin": "https://betterfinance.eu"
+     }
+    ],
+    "cse_image": [
+     {
+      "src": "https://betterfinance.eu/wp-content/themes/betterfinance/images/BF_logo_big.png"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Presentations – BetterFinance",
+   "htmlTitle": "Presentations – BetterFinance",
+   "link": "https://betterfinance.eu/publications/presentations/",
+   "displayLink": "betterfinance.eu",
+   "snippet": "Dec 20, 2018 ... \"The CMU will not be successful if its design focuses solely on financial \ninstitutions' needs. It must also add value to investors. Diversifying the ...",
+   "htmlSnippet": "Dec 20, 2018 \u003cb\u003e...\u003c/b\u003e &quot;The CMU will not be successful if its design focuses solely on financial \u003cbr\u003e\ninstitutions&#39; needs. It must also add value to investors. Diversifying the&nbsp;...",
+   "cacheId": "-mkeOHfs3yAJ",
+   "formattedUrl": "https://betterfinance.eu/publications/presentations/",
+   "htmlFormattedUrl": "https://betterfinance.eu/publications/presentations/",
+   "pagemap": {
+    "cse_thumbnail": [
+     {
+      "width": "180",
+      "height": "180",
+      "src": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT7jTuc2zELh06qHuJ_kQdg3d1zoUhzX1yR-6n1_LQX7BPctFZH3QRhyK_v"
+     }
+    ],
+    "metatags": [
+     {
+      "viewport": "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0",
+      "og:type": "website",
+      "og:title": "BetterFinance",
+      "og:description": "The European Federation of Investors and Financial Services Users",
+      "og:image": "https://betterfinance.eu/wp-content/themes/betterfinance/images/BF_slogan_thumb.jpg",
+      "og:url": "https://betterfinance.eu/",
+      "et-api-version": "v1",
+      "et-api-origin": "https://betterfinance.eu",
+      "tec-api-version": "v1",
+      "tec-api-origin": "https://betterfinance.eu"
+     }
+    ],
+    "cse_image": [
+     {
+      "src": "https://betterfinance.eu/wp-content/themes/betterfinance/images/present.png"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "CEPS",
+   "htmlTitle": "CEPS",
+   "link": "https://betterfinance.eu/venue/ceps/",
+   "displayLink": "betterfinance.eu",
+   "snippet": "1 Place du Congrès Brussels, 1000 Belgium. There were no results found. « \nPrevious Events. Events Calendar. « September 2019 » loading... M, T, W, T, F, S\n, S ...",
+   "htmlSnippet": "1 Place du Congrès Brussels, 1000 Belgium. There were no results found. « \u003cbr\u003e\nPrevious Events. Events Calendar. « September 2019 » loading... M, T, W, T, F, S\u003cbr\u003e\n, S&nbsp;...",
+   "cacheId": "l0TbejRsxBMJ",
+   "formattedUrl": "https://betterfinance.eu/venue/ceps/",
+   "htmlFormattedUrl": "https://betterfinance.eu/venue/ceps/",
+   "pagemap": {
+    "metatags": [
+     {
+      "viewport": "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0",
+      "og:type": "website",
+      "og:title": "BetterFinance",
+      "og:description": "The European Federation of Investors and Financial Services Users",
+      "og:image": "https://betterfinance.eu/wp-content/themes/betterfinance/images/BF_slogan_thumb.jpg",
+      "og:url": "https://betterfinance.eu/",
+      "et-api-version": "v1",
+      "et-api-origin": "https://betterfinance.eu",
+      "tec-api-version": "v1",
+      "tec-api-origin": "https://betterfinance.eu"
+     }
+    ],
+    "cse_image": [
+     {
+      "src": "https://betterfinance.eu/wp-content/themes/betterfinance/images/BF_slogan_thumb.jpg"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "IEF",
+   "htmlTitle": "IEF",
+   "link": "https://betterfinance.eu/organiser/ief/",
+   "displayLink": "betterfinance.eu",
+   "snippet": "On 18 September 2019 BETTER FINANCE's Research & Policy Officer Stefan \nVoicu will present the Fund Research at an event organised by IEF (Institut ...",
+   "htmlSnippet": "On 18 September 2019 BETTER FINANCE&#39;s Research &amp; Policy Officer Stefan \u003cbr\u003e\nVoicu will present the Fund Research at an event organised by IEF (Institut&nbsp;...",
+   "cacheId": "TjFc4wGdYBMJ",
+   "formattedUrl": "https://betterfinance.eu/organiser/ief/",
+   "htmlFormattedUrl": "https://betterfinance.eu/organiser/ief/",
+   "pagemap": {
+    "metatags": [
+     {
+      "viewport": "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0",
+      "og:type": "website",
+      "og:title": "BetterFinance",
+      "og:description": "The European Federation of Investors and Financial Services Users",
+      "og:image": "https://betterfinance.eu/wp-content/themes/betterfinance/images/BF_slogan_thumb.jpg",
+      "og:url": "https://betterfinance.eu/",
+      "et-api-version": "v1",
+      "et-api-origin": "https://betterfinance.eu",
+      "tec-api-version": "v1",
+      "tec-api-origin": "https://betterfinance.eu"
+     }
+    ],
+    "cse_image": [
+     {
+      "src": "https://betterfinance.eu/wp-content/themes/betterfinance/images/BF_slogan_thumb.jpg"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Newsletters – BetterFinance",
+   "htmlTitle": "Newsletters – BetterFinance",
+   "link": "https://betterfinance.eu/communication/newsletters/",
+   "displayLink": "betterfinance.eu",
+   "snippet": "Newsletters history. EU Financial Policy News and Analysis, Friday 19th of July \n2019; EU Financial Policy News and Analysis, Thursday 9th of May 2019 ...",
+   "htmlSnippet": "Newsletters history. EU Financial Policy News and Analysis, Friday 19th of July \u003cbr\u003e\n2019; EU Financial Policy News and Analysis, Thursday 9th of May 2019&nbsp;...",
+   "cacheId": "16CLtgVgTnMJ",
+   "formattedUrl": "https://betterfinance.eu/communication/newsletters/",
+   "htmlFormattedUrl": "https://betterfinance.eu/communication/newsletters/",
+   "pagemap": {
+    "metatags": [
+     {
+      "viewport": "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0",
+      "og:type": "website",
+      "og:title": "BetterFinance",
+      "og:description": "The European Federation of Investors and Financial Services Users",
+      "og:image": "https://betterfinance.eu/wp-content/themes/betterfinance/images/BF_slogan_thumb.jpg",
+      "og:url": "https://betterfinance.eu/",
+      "et-api-version": "v1",
+      "et-api-origin": "https://betterfinance.eu",
+      "tec-api-version": "v1",
+      "tec-api-origin": "https://betterfinance.eu"
+     }
+    ],
+    "cse_image": [
+     {
+      "src": "https://betterfinance.eu/wp-content/themes/betterfinance/images/BF_slogan_thumb.jpg"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "ESA",
+   "htmlTitle": "ESA",
+   "link": "https://betterfinance.eu/organiser/esa/",
+   "displayLink": "betterfinance.eu",
+   "snippet": "Get Involved. +32 25 14 37 77. info@betterfinance.eu · image · Euroshareholders\n. As part of BETTER FINANCE and through the EuroVote platform, ...",
+   "htmlSnippet": "Get Involved. +32 25 14 37 77. info@betterfinance.eu &middot; image &middot; Euroshareholders\u003cbr\u003e\n. As part of BETTER FINANCE and through the EuroVote platform,&nbsp;...",
+   "cacheId": "GgK9nsG1SD8J",
+   "formattedUrl": "https://betterfinance.eu/organiser/esa/",
+   "htmlFormattedUrl": "https://betterfinance.eu/organiser/esa/",
+   "pagemap": {
+    "metatags": [
+     {
+      "viewport": "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0",
+      "og:type": "website",
+      "og:title": "BetterFinance",
+      "og:description": "The European Federation of Investors and Financial Services Users",
+      "og:image": "https://betterfinance.eu/wp-content/themes/betterfinance/images/BF_slogan_thumb.jpg",
+      "og:url": "https://betterfinance.eu/",
+      "et-api-version": "v1",
+      "et-api-origin": "https://betterfinance.eu",
+      "tec-api-version": "v1",
+      "tec-api-origin": "https://betterfinance.eu"
+     }
+    ],
+    "cse_image": [
+     {
+      "src": "https://betterfinance.eu/wp-content/themes/betterfinance/images/BF_slogan_thumb.jpg"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "EuroInvestors – BetterFinance",
+   "htmlTitle": "EuroInvestors – BetterFinance",
+   "link": "https://betterfinance.eu/brand/euroinvestors/",
+   "displayLink": "betterfinance.eu",
+   "snippet": "On the occasion of the first meeting of its newly established Scientific Committee, \nBETTER FINANCE is holding a press conference on 20 June to present its ...",
+   "htmlSnippet": "On the occasion of the first meeting of its newly established Scientific Committee, \u003cbr\u003e\nBETTER FINANCE is holding a press conference on 20 June to present its&nbsp;...",
+   "cacheId": "YwCRDnY-ahwJ",
+   "formattedUrl": "https://betterfinance.eu/brand/euroinvestors/",
+   "htmlFormattedUrl": "https://betterfinance.eu/brand/euroinvestors/",
+   "pagemap": {
+    "metatags": [
+     {
+      "viewport": "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0",
+      "og:type": "website",
+      "og:title": "BetterFinance",
+      "og:description": "The European Federation of Investors and Financial Services Users",
+      "og:image": "https://betterfinance.eu/wp-content/themes/betterfinance/images/BF_slogan_thumb.jpg",
+      "og:url": "https://betterfinance.eu/",
+      "et-api-version": "v1",
+      "et-api-origin": "https://betterfinance.eu",
+      "tec-api-version": "v1",
+      "tec-api-origin": "https://betterfinance.eu"
+     }
+    ],
+    "cse_image": [
+     {
+      "src": "https://betterfinance.eu/wp-content/themes/betterfinance/images/BF_slogan_thumb.jpg"
+     }
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,5 @@
+https://stackoverflow.com/questions/50308525/nginx-how-to-properly-setup-rate-limiting
+
+https://www.nginx.com/blog/rate-limiting-nginx/
+
+https://lincolnloop.com/blog/rate-limiting-nginx/

@@ -1,0 +1,8 @@
+cible : clients en français
+
+pour chaque catégorie
+1) repérer la ressource correspondante (page ou document .pdf)
+
+2) convertir la ressource en texte brut
+
+3) analyse du contenu 

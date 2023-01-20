@@ -1,0 +1,6 @@
+Performance : https://fontawesome.com/icons/tachometer-alt?style=solid
+Sécurité: https://fontawesome.com/icons/shield-alt?style=solid
+Adaptabilité : https://fontawesome.com/icons/mobile-alt?style=solid
+DNS : https://fontawesome.com/icons/server?style=solid
+SEO : https://fontawesome.com/icons/search-dollar?style=solid
+Standards : https://fontawesome.com/icons/code?style=solid

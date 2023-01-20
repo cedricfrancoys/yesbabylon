@@ -1,0 +1,3 @@
+update [contracTiKA].[dbo].[identity_partner] set partner_identity_id = null;
+DELETE FROM dbo.identity_identity where id > 1;
+DBCC CHECKIDENT('identity_identity', RESEED, 2);

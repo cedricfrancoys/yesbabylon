@@ -1,0 +1,11 @@
+classification des autorisations par niveau (catégorie)
+
+nécessaires / préférences / statistiques / marketing
+
+affichage et compte par catégorie
+
+
+--> utilisation des catégories TAC avec une map en amont
+
+voir comment obtenir programmatiquement la liste des cookies, par catégorie
+et comment interagir : activer ou bloquer un cookie spécifique

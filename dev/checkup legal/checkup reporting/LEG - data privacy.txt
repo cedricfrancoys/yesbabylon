@@ -1,0 +1,22 @@
+* vérifier la présence d'une page de protection des données personnelles : /donnees-personnelles, /privacy, /privacy-policy, /politique-de-confidentialite, /gdpr-consent
+* vérifier la présence d'une page des mentions légales: /mentions-legales, /legal
+* vérifier la présence d'une page des conditions générales : /conditions, /terms, /cgv, /conditions-generales
+* vérifier la présence de scripts de demande de consentement
+/privacy-cookie-declaration, /cookies, /cookie-consent, cookie-notice
+
+cookie secure	=> https://cdn.cookie-secure.com
+cokiebot	=> https://consent.cookiebot.com
+cookie consent	=> https://cookieconsent.insites.com
+Tarteaucitron	=> tarteaucitron.js
+WP GDPR Cookie Consent
+WP Cookie Notice for GDPR
+Quantcast GDPR CMP => quantcast.mgr.consensu.org
+TrustArc - Cookie Consent Manager => //consent.truste.com/notice
+
+?
+Audito : CookieCheck+
+Baycloud : CookieQ
+Commanders act : Tag commander
+Fifty Five : Cookie Consent
+Evidon : Site Notice
+OneTrust : Cookie Consent

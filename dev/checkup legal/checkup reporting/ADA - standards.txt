@@ -1,0 +1,31 @@
+# vérifier la présence de css responsives : bootstrap, ...
+# linting tools & snippets
+
+## HTML
+<?php
+
+
+echo extension_loaded('tidy') ? "LOADED" : "NOT LOADED"; ?
+$html = <<<EOD
+<p>Hello</p>
+<div> <p data-customattribute="will be an error">bla</p> <p>bla</p></div>
+<div> <p>Hi there!</p> <div>  <p>Opps, a mistake</px> </div>
+</div>
+EOD;
+
+$tidy = new Tidy();
+$tidy->parseString($html, ['doctype' => '<!DOCTYPE HTML>']);
+
+preg_match_all('/^(?:line (\d+) column (\d+) - )?(\S+): (?:\[((?:\d+\.?){4})]:)?(.*?)$/m', $tidy->errorBuffer, $tidy_errors, PREG_SET_ORDER);
+
+print_r($tidy_errors);
+
+
+## CSS
+
+https://github.com/neilime/php-css-lint
+
+
+## Javascript
+
+https://stackoverflow.com/questions/6473473/where-can-i-find-the-jslint-js-validation-parser-written-in-php
